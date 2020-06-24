@@ -3,11 +3,11 @@
 import pyb
 from time import sleep
 
-# create a variable called led on the pin number LED_GREEN
+# create a variable called led_green on the pin number LED_GREEN
 # by default the pin is an input to create an output use : Pin.OUT
 led_green = pyb.Pin('LED_GREEN', pyb.Pin.OUT)
 
-# create a variable called led on the pin number PA0
+# create a variable called btn on the pin number PA0
 btn = pyb.Pin('PA0',pyb.Pin.IN)
 
 led_green.on()
